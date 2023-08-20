@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Varela Round";
+    font-size: 16px;
+}
+body{
+    background-color: rgb(14, 1, 45);
+    color: white;
+}
+
+.big-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+    margin-top: 50px;
+}
+
+img{
+    width: 70px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 300px;
+    margin-top: 20px;
+}
+
+.add-item{
+    padding: 12px;
+    width: 100%;
+    border-radius: 3px;
+    border: none;
+    padding-right: 40px;
+}
+
+.add-icon{
+    position: absolute;
+    right:10px;
+    color: black;
+    cursor: pointer;
+}
+
+.add-icon:hover{
+    color: rgb(8, 212, 144);
+}
+
+
+.item{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    background-color: #5228D9;
+    border-radius: 3px;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.item:hover{
+    background-color: #fdfcff;
+    color: #5228D9;
+}
+.item-text{
+    padding: 11px;
+    margin-right: auto;
+}
+.edit-icon{
+    margin-right: 15px;
+    cursor: pointer;
+}
+.delete-icon{   
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.item:hover .edit-icon{
+    color: rgb(12, 217, 149);
+}
+
+.item:hover .delete-icon{
+    color: rgb(220, 63, 20);
+}
